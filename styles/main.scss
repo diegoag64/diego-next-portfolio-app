@@ -1,0 +1,87 @@
+@import "./shared/fonts";
+// Components
+@import "./components/header";
+// Pages
+@import './index';
+
+@import './portfolios';
+
+@import './blogs';
+
+@import './about';
+
+@import './portfolio-detail';
+
+.absolute {
+  position: absolute;
+}
+
+html, body {
+  width: 100%;
+  height: 100%;
+  font-family: "Montserrat", "Helvetica";
+}
+
+.self-typed {
+  font-size: 30px;
+  color: white;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+.base-page {
+  padding-top: 150px;
+  padding-bottom: 150px;
+  color: black;
+  background-color: #ecedee;
+  min-height: 100vh;
+
+  .page-header-title {
+    font-weight: bold;
+    display: inline-block;
+    margin-bottom: 20px;
+  }
+}
+
+.clickable {
+  cursor: pointer;
+}
+
+.no-wrapper {
+  padding-top: 0px;
+  padding-bottom: 0px;
+}
+
+.no-wrapper .container{
+  padding: 0!important;
+  max-width: 100%!important;
+  margin: 0!important;
+  
+}
+
+.port-dropdown-menu {
+  .port-dropdown-item {
+    color: #4e4e4e;
+
+    &.active {
+      color: #dba919;
+    }
+  }
+
+  .port-dropdown-toggle {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+.avatar-box {
+  img {
+    height: 50px;
+    border-radius: 50%;
+  }
+
+  .subtitle {
+    font-size: 14px;
+  }
+}
