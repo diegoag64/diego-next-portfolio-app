@@ -29,22 +29,22 @@ const About = () => {
                         <div className="left-side">
                         <h1 className={`title ${createFadeInClass()}`}>Hello, Welcome</h1>
                         <h4 className={`subtitle ${createFadeInClass()}`}>To About Page</h4>
-                        <p className={`subsubTitle ${createFadeInClass()}`}>Feel free to read short description about me.</p>
+                        <p className={`subsubTitle ${createFadeInClass()}`}>Feel free to read a short description about me.</p>
                         </div>
                     </Col>
                     <Col md="6">
                         <div className={`${createFadeInClass()}`}>
-                        <p>My name is Filip Jerga and I am an experienced software engineer and freelance developer. </p>
+                        <p>My name is Diego Arias and I am an experienced website developer. </p>
                         <p>
-                        I have a Master's degree in Artificial Intelligence and several years of experience working
-                        on a wide range of technologies and projects from C++ development for ultrasound devices to
-                            modern mobile and web applications in React and Angular.
+                        My webdev story began on 2014 at Brilliant Directories, starting out working on Marketing/Design because I
+                        had some previous experience with Photoshop, I quickly started getting curious watching my co-workers
+                        programming. I was able to pick up HTML/CSS/JS pretty quickly and then started working on projects 
+                        involving PHP and MySQL which lead me to transition into the dev team. During the 7 years working there I was able to improve my coding skills, team-work, problem solving skills, etc...
                         </p>
                         <p>
-                        Throughout my career, I have acquired advanced technical knowledge and the ability to explain
-                        programming topics clearly and in detail to a broad audience. I invite you to take my course,
-                        where I have put a lot of effort to explain web and software engineering concepts in a detailed,
-                        hands-on and understandable way.
+                        Currently I am trying to transition into React and focus more on front-end development. I have learned many things since
+                        I started programming but I feel like a "Jack of all trades, master of none", which is not a bad thing but I would rather master
+                        something.
                         </p>
                         </div>
                     </Col>
