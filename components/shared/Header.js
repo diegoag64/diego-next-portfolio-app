@@ -85,7 +85,7 @@ const Header = ({className}) => {
           expand="md">
           <div className="navbar-brand">
             <Link href="/">
-              <a className="port-navbar-brand">My Portfolio {width}</a>
+              <a className="port-navbar-brand">My Portfolio</a>
             </Link>
           </div>
           <NavbarToggler onClick={toggle} />
