@@ -103,9 +103,7 @@ const Header = ({className}) => {
               <NavItem className="port-navbar-item">
                 <BsNavLink href="/blogs" title="Blogs"/>
               </NavItem>
-              <NavItem className="port-navbar-item">
-                <BsNavLink href="/cv" title="Cv"/>
-              </NavItem>
+              
               
             </Nav>
             <Nav navbar>
